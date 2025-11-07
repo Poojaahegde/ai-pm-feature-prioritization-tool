@@ -33,6 +33,8 @@ if __name__ == "__main__":
         Feature("Personalized recommendations", 3, 5, 4),
     ]
     ranked = prioritize_features(features)
+# Minor update to correct commit message
+
     print("Ranked features (highest priority first):")
     for feature in ranked:
         print(f"{feature.name}: {feature.score():.2f}")
